@@ -1,0 +1,29 @@
+/* Стили самой кнопки */
+.love-btn {
+    padding: 14px 28px;
+    background-color: #00033b;
+    color: #373eff;               /* белый текст на синем фоне */
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;              /* размер шрифта кнопки */
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.love-btn:hover {
+    background-color: #00033b;    /* потемнеет при наведении */
+}
+
+/* Стили появившегося текста — «произвольный» рукописный шрифт */
+.greeting {
+    font-family: "Georgia", cursive;   /* рукописно-курсивный вид */
+    font-size: 32px;                    /* размер шрифта текста */
+    color: #7f0000;                     /* синий цвет текста */
+    margin-top: 24px;
+}
+
+/* Текст скрыт до нажатия кнопки */
+.hidden {
+    display: none;
+}
